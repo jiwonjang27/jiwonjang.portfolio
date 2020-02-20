@@ -1,0 +1,39 @@
+.abc{
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    /* margin : 20px;
+    padding: 50px; */
+    margin-top: 0px;
+
+    border: 2px solid magenta;
+    border-radius: 20px;
+    border: none;
+
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.16);
+
+    display: inline-block;
+}
+
+.abc:nth-child(3) {
+    background-color: bisque;
+}
+
+.fff{
+    width: 400px;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.fff .abc, .bbb{
+    background-color: yellowgreen
+}
+
+.topbar {
+    position: fixed;
+    top : 0px;
+}
