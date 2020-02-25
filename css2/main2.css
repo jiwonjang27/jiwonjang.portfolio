@@ -13,11 +13,41 @@ body {
 
 .divider {
     width: 100%;
-    height: 1.5px;
+    height: 2px;
     background-color: black;
-    margin-right:32px
+}
+
+.div.intro {
+    line-height: normal;
 }
 
 html {
     cursor: url(cursor.png) 16 32, auto;
 }
+
+.my-container {
+    margin: 0px 20px;
+}
+
+.topbar {
+    background-color: white;
+    display: none;
+}
+
+.topbar-active {
+    display: block;
+}
+
+.bg-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+}
+
+.bg-image {
+    width: 500px;
+    height: 500px;
+    background-image: url(../image/w6-2.png);
+}
+

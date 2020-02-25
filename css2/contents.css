@@ -1,7 +1,11 @@
+.contents .divider {
+    margin-top: 12px;
+}
+
 .contents ul {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
+    padding-top: 40px;
 }
 
 .contents li {
@@ -11,12 +15,12 @@
 }
 
 .contents .work {
-    font-size : 45px;
+    font-size : 60px;
     font-weight: 500;
 }
 
 .contents .workframe {
-    margin: 0px 30px;
+    margin: 20px 50px;
     margin-bottom: 50px;
 }
 
@@ -25,13 +29,27 @@
     margin-left: 40px;
 }
 
-.contents .workframe img {
+.contents .workframe img, .contents .workframe video {
     width: 100%;
     transition: 0.3s;
 }
 
-.contents .workframe img:hover{
+.contents .workframe img:hover, .contents .workframe video:hover{
     opacity:0.9;
     transform: scale(1.05);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.contents .title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.contents .subtitle {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-left: 5px;
 }
