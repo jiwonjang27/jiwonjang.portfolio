@@ -3,12 +3,9 @@
     padding: 0px;
 }
 
-.row {
-    margin: 5px;
-}
-
 body {
     font-family: "WhyteInktrap", sans-serif;
+    word-break: keep-all
 }
 
 .divider {
@@ -17,16 +14,8 @@ body {
     background-color: black;
 }
 
-.div.intro {
-    line-height: normal;
-}
-
 html {
     cursor: url(cursor.png) 16 32, auto;
-}
-
-.my-container {
-    margin: 0px 20px;
 }
 
 .topbar {
@@ -35,7 +24,7 @@ html {
 }
 
 .topbar-active {
-    display: block;
+    display: block; 
 }
 
 .bg-container {
@@ -45,9 +34,53 @@ html {
     align-items: center;
 }
 
-.bg-image {
-    width: 500px;
-    height: 500px;
-    background-image: url(../image/w6-2.png);
+.bg-video {
+    width: 100vw;
+    height: calc(495px - 8vw);
+    /* background-color: blue; */
+    /* background-image: url(../image/w6-2.png); */
 }
 
+a:link {
+    color: black;
+    text-decoration: none
+}
+
+a:hover, a:active {
+    color: magenta;
+}
+
+a:visited {
+    color: black;
+}
+
+.row {
+    margin: 0px;
+}
+
+.bio {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom : 1px;
+}
+
+.ig, .email {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.resume, .portfolio {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.box, .bbox{
+    width: 90px;
+    height: 21px;
+    border: 0.75px solid black;
+    margin-bottom: 5px;
+}
+
+.bbox{
+    background-color: black;
+}

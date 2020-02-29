@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="myron" horiz-adv-x="1000" >
+<font-face font-family="myron" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ig-02" unicode="&#xe800;" d="M781-150h-562c-160 0-219 131-219 219v562c0 160 131 219 219 219h562c161 0 219-131 219-219v-562c0-160-131-219-219-219z m-562 904c-21 0-123-8-123-123v-562c0-20 8-123 123-123h562c21 0 123 8 123 123v562c0 20-7 123-123 123z m281-693a289 289 0 1 0 289 289 289 289 0 0 0-289-289z m0 482a193 193 0 1 1 193-193 193 193 0 0 1-193 193z m303 49a49 49 0 1 1-50 49 49 49 0 0 1 50-49" horiz-adv-x="1000" />
+
+<glyph glyph-name="left-open" unicode="&#xe801;" d="M308 349l346-346-154-154-500 500 500 500 154-154z" horiz-adv-x="654" />
+
+<glyph glyph-name="right-open" unicode="&#xe802;" d="M154 849l500-500-500-500-154 154 346 346-346 346z" horiz-adv-x="654" />
+
+<glyph glyph-name="cancel" unicode="&#xe803;" d="M654 349l346-346-154-154-346 346-346-346-154 154 346 346-346 346 154 154 346-346 346 346 154-154z" horiz-adv-x="1000" />
+
+<glyph glyph-name="menu" unicode="&#xf0c9;" d="M857 100v-71q0-15-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 25t25 11h785q15 0 26-11t10-25z m0 286v-72q0-14-10-25t-26-10h-785q-15 0-25 10t-11 25v72q0 14 11 25t25 10h785q15 0 26-10t10-25z m0 285v-71q0-14-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 26t25 10h785q15 0 26-10t10-26z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

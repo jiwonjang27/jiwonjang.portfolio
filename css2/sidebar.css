@@ -1,0 +1,56 @@
+.sidebar {
+    background-color: black;
+    color: white;
+    width:50vw;
+    height:100vh;
+    transform: translate(100vw, 0px);
+    transition: 0.6s;
+    max-height: 100vh - 9rem;
+    overflow-y : scroll;
+}
+
+.sidebar .my-container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.sidebar .divider {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 5px 0px;
+}
+
+.sidebar .work {
+    font-size : calc(3.5vw + 20px);
+    /* font-size : 20px; */
+    font-weight: 500;
+    transform: translate(0px, calc(1vw + 0px));
+}
+
+.sidebar .icon-menu {
+    transform: translate(0px, calc(1vw + 0px));
+    font-size : calc(3vw + 20px);
+    display: inline;
+    margin-left : calc(-1vw + 0px);
+}
+
+.sidebar .row-e .col-e
+, .sidebar .row-g .col-e
+, .sidebar .row-i .col-e
+, .sidebar .row-k .col-e
+, .sidebar .row-m .col-e {
+    padding-right:0px;
+    padding-bottom: 10px;
+}
+
+.sidebar .row-e .col-e .divider:nth-child(2)
+, .sidebar .row-g .col-e .divider:nth-child(2)
+, .sidebar .row-i .col-e .divider:nth-child(2)
+, .sidebar .row-k .col-e .divider:nth-child(2)
+, .sidebar .row-m .col-e .divider:nth-child(2){
+    width:20px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+    transform: rotate(-25deg);
+}

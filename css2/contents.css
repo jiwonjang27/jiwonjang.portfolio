@@ -1,32 +1,45 @@
-.contents .divider {
-    margin-top: 12px;
+.contents {
+    margin: 0px 15px;
+}
+
+.contents .first-row {
+    margin-top:0px;
+    vertical-align: baseline;
+}
+
+.contents .first-row .divider {
+    margin-top:5px;
+}
+
+.contents .first-row .col-a .divider {
+    width:99%;
+}
+
+.contents .work {
+    font-size : calc(3.5vw + 20px);
+    font-weight: 500;
 }
 
 .contents ul {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
+    padding:0px;
+    margin-top: calc(2.5vw + 0px);
 }
 
 .contents li {
     list-style-type: none;
     display: inline;
-    font-size: 25px;
-}
-
-.contents .work {
-    font-size : 60px;
-    font-weight: 500;
+    font-size: calc(1vw + 15px);
 }
 
 .contents .workframe {
-    margin: 20px 50px;
-    margin-bottom: 50px;
+    margin: calc(1vw + 0px) 40px;
+    margin-bottom: 40px;
 }
 
 .contents .second-row {
-    margin-right: 40px;
-    margin-left: 40px;
+    margin: calc(1vw + 0px) calc(3vw + 0px);
 }
 
 .contents .workframe img, .contents .workframe video {
@@ -41,15 +54,15 @@
 }
 
 .contents .title {
-    font-size: 22px;
+    font-size: calc(1.5vw + 10px);
     font-weight: 600;
     margin-top: 8px;
     margin-left: 5px;
 }
 
 .contents .subtitle {
-    font-size: 22px;
-    font-weight: 300;
+    font-size: calc(1.5vw + 10px);
+    font-weight: 400;
     margin-top: 0px;
     margin-left: 5px;
 }

@@ -1,0 +1,60 @@
+.work {
+    margin-top:10px;
+}
+
+.work .col-pic {
+    padding: 0px 1vw;
+}
+
+.work img{
+    margin-bottom:2vw;
+}
+
+.work .first-row .col-text {
+    padding-left:10px;
+    padding-right: 0px;
+}
+
+.sticky {
+    position:fixed;
+    top:0px;
+    padding-top:140px;
+    margin-right:8px;
+}
+
+.box, .bbox{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.work .third-row {
+    position: relative;
+}
+
+.work .third-row .col-a {
+    position: absolute;
+    bottom:0;
+    margin-left:58%;
+    margin-bottom: 2vw;
+}
+
+.work .third-row .bottom {
+    margin-top:10px;
+}
+
+.work .third-row .col-b {
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin-bottom: 2vw;
+    transform: translate(0px, 5px);
+}
+
+.work .fourth-row {
+    margin: 0px 3vw
+}
+
+.work .fourth-row .small {
+    font-size: 15px;
+    font-weight: 400;
+}
