@@ -136,7 +136,7 @@
 .header .resume_table{
     width: 100%;
     font-size: calc(0.5vw + 14px);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .header .resume_table th{
@@ -168,18 +168,19 @@
     height: 2px;
     margin-top: 2.5px;
     margin-bottom: 2.5px;
+    transform: translate(0px, 5px);
 }
 
 .header .resume_table th .divider:nth-child(2n){
     width:20px;
     margin-top: 0px;
     margin-bottom: 3px;
-    transform: rotate(-25deg);
+    transform: rotate(-25deg) translate(0px, 5px);
 }
 
 .header .resume_table tr td .en {
     font-size: calc(0.5vw + 10px);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .header .resume_table tr td:nth-child(2n) {

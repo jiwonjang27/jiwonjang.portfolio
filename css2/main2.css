@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: "WhyteInktrap", sans-serif;
     word-break: keep-all
