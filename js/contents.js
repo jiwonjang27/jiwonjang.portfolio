@@ -1,3 +1,4 @@
+// filtering
 
 filterSelection("all")
 function filterSelection(c) {
@@ -47,7 +48,7 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-
+// masonry layout
 
 function resizeMasonryItem(item){
     /* Get the grid object, its row-gap, and the size of its implicit rows */

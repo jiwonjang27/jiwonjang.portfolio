@@ -43,8 +43,11 @@ html {
 }
 
 .bg-video {
-    width: 100vw;
+    width: 100%;
     height: calc(495px - 8vw);
+    object-fit: cover;
+    /* object-position: 30% 0; */
+    filter: opacity(75%);
     /* background-color: blue; */
     /* background-image: url(../image/w6-2.png); */
 }
@@ -56,6 +59,7 @@ a:link {
 
 a:hover, a:active {
     color: magenta;
+    font-style: italic;
 }
 
 a:visited {
@@ -66,19 +70,29 @@ a:visited {
     margin: 0px;
 }
 
+.intro {
+    font-size: calc(0.8vw + 15px);
+    font-weight: 600;
+}
+
+.intro_eng {
+    font-size: calc(0.8vw + 16.5px);
+    font-weight: 400;
+}
+
 .bio {
-    font-size: 18px;
+    font-size: calc(0.4vw + 14px);
     font-weight: 400;
     margin-bottom : 1px;
 }
 
 .ig, .email {
-    font-size: 25px;
+    font-size: calc(0.8vw + 16.5px);
     font-weight: 400;
 }
 
 .resume, .portfolio {
-    font-size: 25px;
+    font-size: calc(0.8vw + 16.5px);
     font-weight: 600;
 }
 

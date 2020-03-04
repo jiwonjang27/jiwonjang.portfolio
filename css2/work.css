@@ -2,12 +2,25 @@
     margin-top:10px;
 }
 
-.work .col-pic {
+.work .zero-row {
     padding: 0px 1vw;
 }
 
-.work img{
-    margin-bottom:2vw;
+.work .first-row .col-text {
+    padding-top:1vw;
+}
+
+.work .col-pic {
+    padding: 0vw 1vw;
+}
+
+.work img {
+    padding: 1vw 0vw;
+}
+
+.work .third-row img {
+    padding-top: 1vw;
+    padding-bottom: 0;
 }
 
 .work .first-row .col-text {
@@ -18,8 +31,17 @@
 .sticky {
     position:fixed;
     top:0px;
-    padding-top:140px;
+    padding-top:160px;
     margin-right:8px;
+    overflow: auto;
+    z-index: -1;
+}
+
+.contents {
+    padding-top:3vw;
+    background:#fff;
+    z-index: 1;
+    position: relative;
 }
 
 .box, .bbox{
@@ -35,7 +57,6 @@
     position: absolute;
     bottom:0;
     margin-left:58%;
-    margin-bottom: 2vw;
 }
 
 .work .third-row .bottom {
@@ -46,12 +67,18 @@
     position: absolute;
     bottom:0;
     right:0;
-    margin-bottom: 2vw;
     transform: translate(0px, 5px);
 }
 
 .work .fourth-row {
-    margin: 0px 3vw
+    padding: 2vw 2vw;
+    background:#fff;
+    z-index: 1;
+    position: relative;
+}
+
+.work .fourth-row .bio {
+    width:90%;
 }
 
 .work .fourth-row .small {
