@@ -8,6 +8,8 @@
 
 .work .first-row .col-text {
     padding-top:1vw;
+    padding-left:3vw;
+    padding-right: 0px;
 }
 
 .work .col-pic {
@@ -16,25 +18,22 @@
 
 .work img {
     padding: 1vw 0vw;
+    /* padding-left:5vw; */
 }
 
 .work .third-row img {
-    padding-top: 1vw;
     padding-bottom: 0;
-}
-
-.work .first-row .col-text {
-    padding-left:10px;
-    padding-right: 0px;
 }
 
 .sticky {
     position:fixed;
     top:0px;
-    padding-top:160px;
+    transition:1s;
+    padding-top:calc(165px + 1vw);
     margin-right:8px;
     overflow: auto;
     z-index: -1;
+    background-color: white;
 }
 
 .contents {
@@ -56,7 +55,8 @@
 .work .third-row .col-a {
     position: absolute;
     bottom:0;
-    margin-left:58%;
+    margin-left:61.5%;
+    z-index: -99;
 }
 
 .work .third-row .bottom {
@@ -81,7 +81,12 @@
     width:90%;
 }
 
+.work .third-row .small {
+    font-size: calc(0.4vw + 8px);
+    /* padding-left:3vw; */
+}
+
 .work .fourth-row .small {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
 }

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'myron';
-  src: url('../font/myron.eot?29825600');
-  src: url('../font/myron.eot?29825600#iefix') format('embedded-opentype'),
-       url('../font/myron.woff2?29825600') format('woff2'),
-       url('../font/myron.woff?29825600') format('woff'),
-       url('../font/myron.ttf?29825600') format('truetype'),
-       url('../font/myron.svg?29825600#myron') format('svg');
+  src: url('../font/myron.eot?80293562');
+  src: url('../font/myron.eot?80293562#iefix') format('embedded-opentype'),
+       url('../font/myron.woff2?80293562') format('woff2'),
+       url('../font/myron.woff?80293562') format('woff'),
+       url('../font/myron.ttf?80293562') format('truetype'),
+       url('../font/myron.svg?80293562#myron') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'myron';
-    src: url('../font/myron.svg?29825600#myron') format('svg');
+    src: url('../font/myron.svg?80293562#myron') format('svg');
   }
 }
 */
@@ -59,4 +59,9 @@
 .icon-left-open:before { content: '\e801'; } /* '' */
 .icon-right-open:before { content: '\e802'; } /* '' */
 .icon-cancel:before { content: '\e803'; } /* '' */
+.icon-left-open-big:before { content: '\e804'; } /* '' */
+.icon-right-open-big:before { content: '\e805'; } /* '' */
+.icon-up-small:before { content: '\e806'; } /* '' */
+.icon-cancel-1:before { content: '\e807'; } /* '' */
+.icon-resize-full:before { content: '\e808'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */

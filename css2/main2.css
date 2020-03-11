@@ -23,33 +23,17 @@ body {
 }
 
 html {
-    cursor: url(cursor.png) 16 32, auto;
+    cursor: url(cursor1.png) 10 20, auto;
 }
 
-.topbar {
-    background-color: white;
-    display: none;
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: url(cursor2.png) 10 20, auto;
+    text-decoration: none;
 }
 
-.topbar-active {
-    display: block; 
-}
-
-.bg-container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    align-items: center;
-}
-
-.bg-video {
-    width: 100%;
-    height: calc(495px - 8vw);
-    object-fit: cover;
-    /* object-position: 30% 0; */
-    filter: opacity(75%);
-    /* background-color: blue; */
-    /* background-image: url(../image/w6-2.png); */
+a:-webkit-any-link:hover {
+    color: magenta;
 }
 
 a:link {
@@ -59,11 +43,41 @@ a:link {
 
 a:hover, a:active {
     color: magenta;
-    font-style: italic;
 }
 
 a:visited {
     color: black;
+}
+
+.masonry a:hover  {
+    color:black;
+}
+
+.topbar {
+    background-color: white;
+    display: none;
+}
+
+.topbar-active {
+    display: block;
+}
+
+.bg-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    z-index: -1;
+}
+
+.bg-video {
+    width: 100%;
+    height: calc(320px + 2.5vw);
+    object-fit: cover;
+    /* object-position: 30% 0; */
+    filter: opacity(75%);
+    /* background-color: blue; */
+    /* background-image: url(../image/w6-2.png); */
 }
 
 .row {
@@ -76,33 +90,58 @@ a:visited {
 }
 
 .intro_eng {
-    font-size: calc(0.8vw + 16.5px);
+    font-size: calc(0.8vw + 16px);
     font-weight: 400;
 }
 
 .bio {
-    font-size: calc(0.4vw + 14px);
+    font-size: calc(0.4vw + 12.5px);
     font-weight: 400;
     margin-bottom : 1px;
 }
 
 .ig, .email {
-    font-size: calc(0.8vw + 16.5px);
+    font-size: calc(0.8vw + 16px);
     font-weight: 400;
 }
 
 .resume, .portfolio {
-    font-size: calc(0.8vw + 16.5px);
+    font-size: calc(0.8vw + 16px);
     font-weight: 600;
 }
 
+.resume:hover {
+    font-style: italic;
+}
+
 .box, .bbox{
-    width: 90px;
+    /* width: 90px; */
+    width: 6vw;
     height: 21px;
-    border: 0.75px solid black;
+    /* height: calc(0.5vw + 13px); */
+    border: 1px solid black;
     margin-bottom: 5px;
 }
 
 .bbox{
     background-color: black;
 }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 1vw; /* Place the button at the bottom of the page */
+    right: 1vw; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    /* font-size: 18px; */
+  }
+  
+  #myBtn:hover {
+    font-style: italic;
+    font-weight: 600;
+  }
