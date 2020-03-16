@@ -166,10 +166,10 @@
 }
 
 .header .resume_table th .divider:nth-child(2n){
-    width:20px;
+    width:calc(0.5vw + 12px);
     margin-top: 0px;
     margin-bottom: 3px;
-    transform: rotate(-25deg) translate(0px, 5px);
+    transform: rotate(-25deg) translate(0px, calc(0.2vw + 2.3px));
 }
 
 .header .resume_table tr td .en {

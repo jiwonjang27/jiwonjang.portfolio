@@ -45,8 +45,10 @@
 
 .contents .second-row {
     display:block;
-    margin: calc(5vw + 0px);
+    margin-left: calc(1.5vw + 0px);
+    margin-right: calc(1.5vw + 0px);
     margin-top: calc(1.5vw + 0px);
+    margin-bottom: calc(5vw + 0px);
 }
 
 .contents .masonry {

@@ -6,6 +6,10 @@
     padding: 0px 1vw;
 }
 
+.work .zero-row .ig, .work .fourth-row .ig {
+    line-height: 1;
+}
+
 .work .first-row .col-text {
     padding-top:1vw;
     padding-left:3vw;
