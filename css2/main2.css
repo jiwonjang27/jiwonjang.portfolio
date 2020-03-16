@@ -33,7 +33,7 @@ a:-webkit-any-link {
 }
 
 a:-webkit-any-link:hover {
-    color: yellow;
+    color: magenta;
 }
 
 a:link {
@@ -42,7 +42,7 @@ a:link {
 }
 
 a:hover, a:active {
-    color: yellow;
+    color: magenta;
 }
 
 a:visited {
