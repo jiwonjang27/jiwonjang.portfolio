@@ -9,17 +9,6 @@
     margin-bottom:10px;
 }
 
-.header .title_eng {
-    font-size: calc(3.5vw + 25px);
-    font-weight: 300;
-}
-
-.header .title_kor {
-    word-spacing: 50px;
-    font-size: calc(3.5vw + 25px);
-    font-weight: 600;
-}
-
 .header .intro {
     line-height: 1.4;
 }
@@ -34,7 +23,7 @@
 
 .header .icon-menu {
     transform: translate(-15px, calc(1vw + 0px));
-    font-size : calc(3vw + 15px);
+    font-size : calc(3vw + 13px);
 }
 
 .header .second-row .col-r .divider {
@@ -102,7 +91,7 @@
 .icon-ig-02 {
     display: inline-block;
     vertical-align: 1px;
-    font-size : 20px;
+    font-size : calc(0.8vw + 15px);
     margin-right : 0px;
     margin-left : -5px;
 }

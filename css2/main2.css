@@ -84,8 +84,19 @@ a:visited {
     margin: 0px;
 }
 
+.title_eng {
+    font-size: calc(3.5vw + 24px);
+    font-weight: 300;
+}
+
+.title_kor {
+    word-spacing: 50px;
+    font-size: calc(3.5vw + 24px);
+    font-weight: 600;
+}
+
 .intro {
-    font-size: calc(0.8vw + 15px);
+    font-size: calc(0.8vw + 14.5px);
     font-weight: 600;
 }
 
@@ -101,12 +112,12 @@ a:visited {
 }
 
 .ig, .email {
-    font-size: calc(0.8vw + 16px);
+    font-size: calc(0.8vw + 15px);
     font-weight: 400;
 }
 
 .resume, .portfolio {
-    font-size: calc(0.8vw + 16px);
+    font-size: calc(0.8vw + 15px);
     font-weight: 600;
 }
 
