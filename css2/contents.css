@@ -92,7 +92,7 @@
 
 .contents .workframe img:hover, .contents .workframe video:hover{
     opacity:0.9;
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
 }
 
